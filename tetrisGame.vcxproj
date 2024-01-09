@@ -128,22 +128,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="block.cpp" />
-    <ClCompile Include="blocks.cpp" />
-    <ClCompile Include="colors.cpp" />
-    <ClCompile Include="enemy.cpp" />
-    <ClCompile Include="game.cpp" />
-    <ClCompile Include="grid.cpp" />
-    <ClCompile Include="Position.cpp" />
-    <ClCompile Include="blazetetris.cpp" />
+    <ClCompile Include="src\block.cpp" />
+    <ClCompile Include="src\blocks.cpp" />
+    <ClCompile Include="src\colors.cpp" />
+    <ClCompile Include="src\enemy.cpp" />
+    <ClCompile Include="src\game.cpp" />
+    <ClCompile Include="src\grid.cpp" />
+    <ClCompile Include="src\Position.cpp" />
+    <ClCompile Include="src\blazetetris.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="block.h" />
-    <ClInclude Include="colors.h" />
-    <ClInclude Include="enemy.h" />
-    <ClInclude Include="game.h" />
-    <ClInclude Include="grid.h" />
-    <ClInclude Include="position.h" />
+    <ClInclude Include="src\block.h" />
+    <ClInclude Include="src\colors.h" />
+    <ClInclude Include="src\enemy.h" />
+    <ClInclude Include="src\game.h" />
+    <ClInclude Include="src\grid.h" />
+    <ClInclude Include="src\position.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
