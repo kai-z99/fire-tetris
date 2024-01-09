@@ -25,7 +25,7 @@ __Step 2: Install raylib using vcpkg__
   
   cd ..
 
-- Install raylib using vcpkg. While in the directory containing the vcpkg executable:
+- Install raylib using vcpkg. Ensure you are in the directory where the vcpkg executable is located (this should be the vcpkg directory you cloned from GitHub). Run the following commands:
 
   ./vcpkg install raylib
 
@@ -42,6 +42,7 @@ __Step 4: Run the Game__
 __Game Controls__
 
 - A, D = move block left, move block right
-- W = Rotate
+- W = rotate block
 - S (hold) = move block down
 - Enter (after game over) = play again
+- Esc = exit game
