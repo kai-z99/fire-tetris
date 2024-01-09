@@ -14,14 +14,14 @@ git clone https://github.com/kai-z99/fire-tetris.git
 cd fire-tetris
 
 __Step 2: Install raylib using vcpkg__
-Install vcpkg: If you haven't installed vcpkg, clone it from GitHub and run the bootstrap script:
+If you haven't installed vcpkg, clone it from GitHub and run the bootstrap script:
 
 git clone https://github.com/Microsoft/vcpkg.git
 cd vcpkg
 ./bootstrap-vcpkg.bat
 cd ..
 
-Install raylib: Install raylib using vcpkg:
+Install raylib using vcpkg:
 
 ./vcpkg/vcpkg install raylib
 
@@ -30,13 +30,13 @@ Integrate vcpkg with Visual Studio: This step allows Visual Studio to automatica
 ./vcpkg/vcpkg integrate install
 
 __Step 3: Open the Project in Visual Studio__
-Open the Solution: Navigate to the cloned repository's directory and double-click on the tetrisGame.sln file to open the project in Visual Studio.
+Navigate to the cloned repository's directory and double-click on the tetrisGame.sln file to open the project in Visual Studio.
 
 __Step 4: Build the Project__
-Build the Solution: In Visual Studio, select Build > Build Solution (or press Ctrl+Shift+B). This will compile the project and all its dependencies.
+In Visual Studio, select Build > Build Solution (or press Ctrl+Shift+B). This will compile the project and all its dependencies.
 
 __Step 5: Run the Game__
-Run the Game: After the build is successful, run the game by selecting Debug > Start Without Debugging (or press Ctrl+F5).
+After the build is successful, run the game by selecting Debug > Start Without Debugging (or press Ctrl+F5).
 
 This should launch the game window, and you can start playing the game.
 
