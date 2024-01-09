@@ -11,14 +11,18 @@ __Step 1: Clone the Repository__
 - Clone the  repository to your local machine. Open a command prompt and run:
 
   git clone https://github.com/kai-z99/fire-tetris.git
+  
   cd fire-tetris
 
 __Step 2: Install raylib using vcpkg__
 - If you haven't installed vcpkg, clone it from GitHub and run the bootstrap script:
 
   git clone https://github.com/Microsoft/vcpkg.git
+  
   cd vcpkg
+  
   ./bootstrap-vcpkg.bat
+  
   cd ..
 
 - Install raylib using vcpkg:
