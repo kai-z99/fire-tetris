@@ -3,9 +3,9 @@ __Tetris remake with a twist!__
 Follow these steps to set up and run the  game on your Windows machine.
 
 __Prerequisites__
-Git
-Visual Studio 2019 or later
-vcpkg (for installing raylib)
+-Git
+-Visual Studio 2019 or later
+-vcpkg (for installing raylib)
 
 __Step 1: Clone the Repository__
 Clone the  repository to your local machine. Open a command prompt and run:
@@ -42,7 +42,7 @@ This should launch the game window, and you can start playing the game.
 
 __Game Controls__
 
-A, D = move block left, move block right
-W = Rotate
-S (hold) = move block down
-Enter (after game over) = play again
+-A, D = move block left, move block right
+-W = Rotate
+-S (hold) = move block down
+-Enter (after game over) = play again
