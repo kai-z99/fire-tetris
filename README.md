@@ -29,20 +29,17 @@ __Step 2: Install raylib using vcpkg__
 
   ./vcpkg/vcpkg install raylib
 
-- Integrate vcpkg with Visual Studio: This step allows Visual Studio to automatically use libraries installed with vcpkg:
+- Integrate vcpkg with Visual Studio:
 
   ./vcpkg/vcpkg integrate install
 
 __Step 3: Open the Project in Visual Studio__
-- Navigate to the cloned repository's directory and double-click on the tetrisGame.sln file to open the project in Visual Studio.
-
-__Step 4: Build the Project__
+- Navigate to the cloned repository's directory and open the tetrisGame.sln file to open the project in Visual Studio.
+  
 - In Visual Studio, select Build > Build Solution (or press Ctrl+Shift+B). This will compile the project and all its dependencies.
 
-__Step 5: Run the Game__
-- After the build is successful, run the game by selecting Debug > Start Without Debugging (or press Ctrl+F5).
-
-- This should launch the game window, and you can start playing the game.
+__Step 4: Run the Game__
+- After the build is successful, you can run the game by selecting Debug > Start Without Debugging (or press Ctrl+F5).
 
 __Game Controls__
 
