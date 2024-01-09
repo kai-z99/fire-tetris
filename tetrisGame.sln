@@ -5,8 +5,6 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlazeTetris", "tetrisGame.vcxproj", "{8A1234DB-985B-463D-9C29-C92D4BE77F2B}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BlazeTetrisSetup", "..\BlazeTetrisSetup\BlazeTetrisSetup.vdproj", "{24FDC39C-EB74-4B7A-A523-C46C2A335AF2}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
