@@ -25,13 +25,11 @@ __Step 2: Install raylib using vcpkg__
   
   cd ..
 
-- Install raylib using vcpkg:
+- Install raylib using vcpkg. While in the directory containing the vcpkg executable:
 
-  ./vcpkg/vcpkg install raylib
+  ./vcpkg install raylib
 
-- Integrate vcpkg with Visual Studio:
-
-  ./vcpkg/vcpkg integrate install
+  ./vcpkg/integrate install
 
 __Step 3: Open the Project in Visual Studio__
 - Navigate to the cloned repository's directory and open the tetrisGame.sln file to open the project in Visual Studio.
